@@ -1,0 +1,102 @@
+$color_1: #099a71;
+$color_2: #fff;
+$background-color_1: #f4f5f4;
+$background-color_2: hsla(0,0%,100%,0);
+
+#usefulpostterminal {
+	margin-top: 96px !important;
+}
+.headerusefulpostterminal {
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+	font-weight: 400 !important;
+	margin-bottom: 40px !important;
+}
+.terminalimage {
+	background-color: $background-color_1;
+	padding: 80px 0;
+	text-align: center;
+	position: relative;
+}
+.imagepostterminal {
+	width: 260px;
+	display: inline-block;
+}
+.terminaltexts {
+	padding: 24px;
+}
+.textsheader {
+	margin-bottom: 16px;
+	line-height: 24px;
+	letter-spacing: .15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.list--bullet {
+	margin-bottom: 32px;
+	list-style: none;
+	li {
+		background: url(https://sme.pashabank.az/themes/sme/assets/images/done.svg);
+		background-repeat: no-repeat;
+		background-size: 20px;
+		background-position-y: top;
+		padding: 0 28px;
+	}
+}
+.btn--moreinformation {
+	background-color: $background-color_2;
+	color: $color_1;
+	background-position: 50%;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .1px;
+	font-weight: 600;
+	border-radius: 6px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	justify-content: center;
+	min-width: 128px;
+	height: 40px;
+	padding: 8px 16px;
+	margin-bottom: 8px;
+	width: 100%;
+}
+.orderbutton {
+	background: #058d66;
+	color: $color_2 !important;
+	background-position: 50%;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .1px;
+	font-weight: 600;
+	border-radius: 6px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	justify-content: center;
+	min-width: 128px;
+	height: 40px;
+	padding: 8px 16px;
+	width: 100%;
+}
+.emblemimage {
+	position: absolute;
+	top: 24px;
+	right: 24px;
+}
+.cartsitem {
+	display: block;
+	overflow-x: auto;
+	overflow-y: hidden;
+	padding-bottom: 24px;
+}
+.grayparagrafterminal {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: .15px;
+	margin-top: 16px !important;
+	margin-bottom: 32px !important;
+}

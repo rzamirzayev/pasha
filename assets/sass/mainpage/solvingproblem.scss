@@ -1,0 +1,76 @@
+$color_1: #099a71;
+$color_2: rgba(0,0,0,.6);
+$color_3: rgba(0,0,0,.87);
+$color_4: inherit;
+$background-color_1: #fff;
+
+/* .openaccount{
+    border-radius: 8px;
+    
+    padding: 24px 24px 16px;
+    box-shadow: 0 2px 7px rgba(0,0,0,.07);
+    transition: all .3s cubic-bezier(.23,1,.32,1);
+    margin-right: 24px;
+
+} */
+#solvingproblem {
+	margin-top: 56px;
+}
+.assigments {
+	width: 30px;
+	height: 30px;
+	color: $color_1;
+	margin-bottom: 24px;
+}
+.complete {
+	li {
+		background: url("https://sme.pashabank.az/themes/sme/assets/images/done.svg") no-repeat 0;
+		background-size: 20px;
+		background-position-y: top;
+		padding: 0 28px;
+	}
+}
+.list {
+	li {
+		color: $color_2;
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: .25px;
+		margin-bottom: 16px;
+		list-style: none;
+	}
+}
+.solveproblemhead {
+	line-height: 24px;
+	letter-spacing: .15px;
+	font-size: 20px;
+	font-weight: 600;
+	color: $color_3;
+}
+.problemslink {
+	box-shadow: 0 2px 7px rgba(0,0,0,.07);
+	transition: all .3s cubic-bezier(.23,1,.32,1);
+	background-color: $background-color_1;
+	border-radius: 8px;
+	margin-right: 24px;
+	padding: 24px 24px 16px;
+}
+a:hover{
+    text-decoration: none !important;
+}
+.openaccount {
+	color: $color_4;
+	text-decoration: inherit;
+}
+.moredetailslink {
+	color: $color_1;
+}
+.headsolvingproblem {
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+}
+.listingproblems {
+	padding-bottom: 24px;
+}

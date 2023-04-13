@@ -1,0 +1,30 @@
+$color_1: #099a71;
+$color_2: #fff;
+$background-color_1: #e0f3ed;
+$background-color_2: #51b998;
+
+#gothreesteps {
+	margin-top: 96px !important;
+}
+.stepsheader {
+	margin-bottom: 40px;
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+	font-weight: 400 !important;
+}
+.step {
+	align-items: center;
+}
+.stepnumber {
+	background-color: $background-color_1;
+	color: $color_1;
+	flex-shrink: 0;
+	width: 64px;
+	height: 64px;
+	font-size: 24px;
+	line-height: 32px;
+	color: $color_2;
+	background-color: $background-color_2;
+	border-radius: 50%;
+}

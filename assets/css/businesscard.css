@@ -1,0 +1,532 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  font-family: "Rubik", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+}
+
+.main-logo {
+  margin-right: 30px;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 30px;
+  margin-right: 30px;
+  margin-left: 30px;
+  height: 70px;
+  width: 95%;
+  justify-content: space-between;
+}
+.navbar .nav-left {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .nav-right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.navbar .nav-right .nav-button {
+  background-color: #058d66;
+  padding: 9px;
+  width: 150px;
+  border-radius: 5px;
+  border: none;
+  height: 40px;
+  color: #fdfbf4;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.nav-span {
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.nav-span-div {
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  gap: 300px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  transition: all 0.3s;
+  cursor: pointer;
+}
+
+.nav-span-div:hover {
+  background-color: #f1f9f7;
+  border-bottom: 2px solid green; /* add a green line at the bottom */
+}
+.nav-span-div:hover .nav-span {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.hover-dropdown {
+  display: block;
+}
+
+.menu-dropdown {
+  color: rgba(0, 0, 0, 0.87);
+  list-style: none;
+  letter-spacing: 0.1px;
+  box-sizing: inherit;
+  font: inherit;
+  vertical-align: baseline;
+  border-top: 1px solid #edefed;
+  background-color: #fff;
+  width: 104.5%;
+  margin-right: 200px;
+  position: absolute;
+  left: -23px;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  transition-delay: 0.05s;
+  visibility: hidden;
+  opacity: 1;
+  z-index: 10;
+  margin-top: 300px;
+}
+
+.dropdown-items {
+  display: flex;
+  margin: 0 auto;
+  width: 900px;
+  margin-left: 137px;
+  max-height: 240px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: rgba(0, 0, 0, 0.87);
+  list-style: none;
+  letter-spacing: 0.1px;
+  box-sizing: inherit;
+  border: 0;
+  font: inherit;
+  vertical-align: baseline;
+  border-bottom: 1px solid #edefed;
+  margin: 0 0 0 182px;
+  padding: 0 30px;
+}
+.dropdown-items .dropdown-item {
+  width: 50%;
+  color: rgba(0, 0, 0, 0.38);
+  font-size: 20px;
+  padding: 16px;
+  cursor: pointer;
+  transition: 0.3s all;
+}
+.dropdown-items .dropdown-item:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.nav-span-div:hover .menu-dropdown {
+  visibility: visible;
+}
+
+.dropdown-item-link {
+  color: rgba(0, 0, 0, 0.38);
+  text-decoration: none;
+}
+
+.dropdown-item-link:hover {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.87);
+}
+
+#slidecard {
+  background: linear-gradient(283.08deg, rgba(241, 249, 247, 0.56) -5.65%, rgba(224, 243, 241, 0.56) 38.92%, rgba(253, 246, 231, 0.56) 64.99%, rgba(255, 235, 240, 0.56) 100.86%);
+}
+
+.allslideparametr {
+  background-image: url("../imgs/business-cards.png");
+  min-height: 504px;
+  padding-top: 104px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  display: inline-block;
+}
+
+.slidecardhead {
+  margin-bottom: 24px;
+  font-size: 48px;
+  line-height: 56px;
+  letter-spacing: unset !important;
+  font-weight: 400 !important;
+}
+
+.grayparagrafslide {
+  margin-bottom: 40px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#worldslide {
+  margin-top: 40px;
+}
+
+.worldslidetexts {
+  margin-bottom: 32px;
+}
+
+.headerslideworld {
+  margin-bottom: 24px;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+}
+
+.slidespan {
+  font-weight: 700 !important;
+}
+
+.paraglafworldslide {
+  margin-bottom: 24px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.subtitleparagrafslide {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.visacard {
+  margin-left: 24px;
+}
+
+.onlinecard {
+  width: 74px;
+}
+
+.cardbusiness {
+  margin-bottom: 32px;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 40px 24px 40px 32px;
+}
+
+.imagecard {
+  padding-right: 32px;
+}
+.imagecard img {
+  width: 100%;
+}
+
+.cardhead {
+  font-size: 24px !important;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  font-weight: 400 !important;
+  margin-top: 0 !important;
+}
+
+.grayparagrafcard {
+  width: 100%;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.cardinforrmation {
+  margin-top: 32px;
+}
+.cardinforrmation div {
+  margin-right: 40px;
+}
+
+.subtitleparagrafcard {
+  margin-top: 8px;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.orderlink {
+  background: #058d66;
+  color: #fff;
+  background-position: 50%;
+  min-width: 128px;
+  height: 48px;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.moreinformationlink {
+  background-color: hsla(0, 0%, 100%, 0);
+  color: #099a71;
+  background-position: 50%;
+  min-width: 128px;
+  height: 48px;
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  justify-content: center;
+}
+
+.corporativcardinformation {
+  padding: 40px 64px;
+  position: relative;
+}
+
+.textsinformationcard {
+  margin-top: 24px;
+}
+
+.servicescard {
+  margin-bottom: 24px;
+}
+.servicescard img {
+  width: 64px;
+  height: 64px;
+}
+
+.cardinforrmationhead {
+  font-size: 16px !important;
+  margin-bottom: 8px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-weight: 600;
+}
+
+.grayparagrafinformation {
+  color: rgba(0, 0, 0, 0.6);
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}
+
+.information1 {
+  display: none;
+}
+
+.information2 {
+  display: none;
+}
+
+.information3 {
+  display: none;
+}
+
+#threesimplestep {
+  margin-top: 96px;
+}
+
+.stepparagraf {
+  margin-bottom: 8px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.grayparagrafstep {
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.stepimage {
+  margin-bottom: 24px;
+}
+.stepimage::after {
+  position: absolute;
+  content: "";
+  width: calc(100% - 88px);
+  right: 0;
+  top: 25%;
+  height: 1px;
+  background-color: #edefed;
+}
+
+.simplesteps {
+  margin-top: 40px;
+}
+
+#slidebusinesscard {
+  padding-top: 88px;
+  padding-bottom: 120px;
+  background-image: url(/imgs/for-all-needs.jpg);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+.slidehead {
+  font-size: 48px;
+  line-height: 56px;
+}
+
+.textsdiv {
+  margin-top: 32px !important;
+}
+
+.linkslidecard {
+  margin-top: 56px;
+}
+
+.textsbusinesscardslide {
+  margin-right: 56px;
+}
+
+.captionslide {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+#mostgivenquestion {
+  margin-top: 40px;
+}
+#mostgivenquestion h2 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+}
+
+.accordion1text {
+  display: none;
+}
+
+.accordion2text {
+  display: none;
+}
+
+.accordion3text {
+  display: none;
+}
+
+.accordionbutton {
+  border-radius: 6px;
+  border: 1px solid #d6d7d6;
+  padding: 16px 20px 16px 16px;
+  background-color: #fff;
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.plusbutton {
+  color: green;
+}
+
+.accordiongrayparagraf {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.footer-services li {
+  list-style: none;
+  padding: 10px 16px;
+}
+
+.footer-services li a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: inherit;
+}
+
+.footer-services li a:hover {
+  color: rgba(0, 0, 0, 0.87);
+}
+
+.footer-p {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+}
+
+.copyright-p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.38);
+}
+
+.contact-number {
+  padding: 16px;
+}
+
+.contact-boss {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.4px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.contact-p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.25px;
+}
+
+.footer-logo {
+  height: 56px;
+}
+
+#footerarea {
+  padding-top: 36px;
+  padding-bottom: 40px;
+}
+
+.container {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
+.footer {
+  background-color: #fff;
+  padding-top: 48px;
+  margin-top: 96px;
+}

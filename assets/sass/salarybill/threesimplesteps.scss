@@ -1,0 +1,32 @@
+$color_1: rgba(0,0,0,.6);
+$background-color_1: #edefed;
+
+#threesimplestep {
+	margin-top: 96px;
+}
+.stepparagraf {
+	margin-bottom: 8px;
+	line-height: 24px;
+	letter-spacing: .15px;
+	font-size: 20px;
+	font-weight: 600;
+}
+.grayparagrafstep {
+	line-height: 24px;
+	color: $color_1;
+}
+.stepimage {
+	margin-bottom: 24px;
+	&::after {
+		position: absolute;
+		content: "";
+		width: calc(100% - 88px);
+		right: 0;
+		top: 25%;
+		height: 1px;
+		background-color: $background-color_1;
+	}
+}
+.simplesteps {
+	margin-top: 40px;
+}

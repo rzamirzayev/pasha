@@ -1,0 +1,71 @@
+$color_1: #343836;
+$background-color_1: #fff;
+
+#necessarydocuments {
+	padding-top: 8px;
+}
+.document {
+	background-color: $background-color_1;
+	.cardline {
+		div {
+			padding: 16px 0;
+			border: solid #edefed;
+			border-width: 0 0 1px;
+		}
+	}
+}
+.creditcertificates {
+	background-color: $background-color_1;
+	display: none;
+	.creditline {
+		p {
+			padding: 16px 0;
+			border: solid #edefed;
+			border-width: 0 0 1px;
+		}
+	}
+}
+.headdocument {
+	background-color: $background-color_1;
+	padding: 10px;
+}
+.documentheader {
+	margin-bottom: 40px;
+	margin-top: 40px;
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+}
+.documentlinks {
+	position: relative;
+	color: $color_1 !important;
+	padding-left: 16px;
+	padding-right: 16px;
+	white-space: nowrap;
+	margin-right: 32px;
+	padding: 0 8px 12px;
+	text-decoration: none;
+	button {
+		color: $color_1;
+		font-size: 15px;
+		line-height: 24px;
+		letter-spacing: .15px;
+		font-weight: 500;
+		width: 100%;
+		border: none;
+	}
+	&:hover {
+		&:after {
+			position: absolute;
+			content: "";
+			background: #058d66;
+			border-radius: 0 0 2px 2px;
+			-webkit-transform: matrix(1,0,0,-1,0,0);
+			transform: matrix(1,0,0,-1,0,0);
+			width: 100%;
+			height: 2px;
+			left: 0;
+			bottom: -1px;
+		}
+	}
+}

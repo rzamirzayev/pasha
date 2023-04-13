@@ -1,0 +1,42 @@
+#mostgivenquestion {
+  margin-top: 40px;
+}
+#mostgivenquestion h2 {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+}
+
+.accordion1text {
+  display: none;
+}
+
+.accordion2text {
+  display: none;
+}
+
+.accordion3text {
+  display: none;
+}
+
+.accordionbutton {
+  border-radius: 6px;
+  border: 1px solid #d6d7d6;
+  padding: 16px 20px 16px 16px;
+  background-color: #fff;
+  margin-bottom: 16px;
+  color: rgba(0, 0, 0, 0.87);
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+}
+
+.plusbutton {
+  color: green;
+}
+
+.accordiongrayparagraf {
+  color: rgba(0, 0, 0, 0.6);
+}

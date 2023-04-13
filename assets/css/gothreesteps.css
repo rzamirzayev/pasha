@@ -1,0 +1,28 @@
+#gothreesteps {
+  margin-top: 96px !important;
+}
+
+.stepsheader {
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  font-weight: 400 !important;
+}
+
+.step {
+  align-items: center;
+}
+
+.stepnumber {
+  background-color: #e0f3ed;
+  color: #099a71;
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  font-size: 24px;
+  line-height: 32px;
+  color: #fff;
+  background-color: #51b998;
+  border-radius: 50%;
+}

@@ -1,0 +1,41 @@
+$color_1: rgba(0,0,0,.87);
+$color_2: green;
+$color_3: rgba(0,0,0,.6);
+$background-color_1: #fff;
+
+#mostgivenquestion {
+	margin-top: 40px;
+	h2 {
+		font-size: 32px;
+		line-height: 48px;
+		letter-spacing: .25px;
+		margin-bottom: 40px;
+	}
+}
+.accordion1text {
+	display: none;
+}
+.accordion2text {
+	display: none;
+}
+.accordion3text {
+	display: none;
+}
+.accordionbutton {
+	border-radius: 6px;
+	border: 1px solid #d6d7d6;
+	padding: 16px 20px 16px 16px;
+	background-color: $background-color_1;
+	margin-bottom: 16px;
+	color: $color_1;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: .15px;
+}
+.plusbutton {
+	color: $color_2;
+}
+.accordiongrayparagraf {
+	color: $color_3;
+}

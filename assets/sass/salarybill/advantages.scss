@@ -1,0 +1,61 @@
+$color_1: rgba(0,0,0,.6);
+$color_2: rgba(0,0,0,.38);
+$color_3: #343836;
+$background-color_1: #fff;
+
+#advantages {
+	margin-top: 96px;
+}
+.deliverycard {
+	box-shadow: 0 2px 7px rgba(0,0,0,.07);
+	padding: 24px;
+	margin-right: 24px;
+	margin-bottom: 24px;
+	margin-right: 16px;
+	flex: 0 0 auto;
+	width: 35vw;
+	transition: all .3s cubic-bezier(.23,1,.32,1);
+	background-color: $background-color_1;
+	height: 156px;
+	overflow: hidden;
+	border-radius: 8px;
+	width: calc((100% - 48px)/3);
+}
+.headparagrafcards {
+	line-height: 24px;
+	letter-spacing: .15px;
+	font-size: 20px;
+	margin-bottom: 8px;
+	font-weight: 400px !important;
+}
+.paragrafcard {
+	line-height: 24px;
+	color: $color_1;
+}
+.headsectionadvantages {
+	margin-bottom: 32px;
+}
+.advantageslinks {
+	margin-right: 32px;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: .15px;
+	font-weight: 500;
+	padding: 0 8px 12px;
+	color: $color_2;
+	&:hover {
+		color: $color_2;
+		text-decoration: inherit;
+	}
+}
+.advantageslinks.active {
+	position: relative;
+	color: $color_3;
+}
+.advantageslinksdiv {
+	display: flex;
+	border-bottom: 1px solid #e2e3e2;
+}
+.advantagescardtwo{
+	display: none !important;
+}

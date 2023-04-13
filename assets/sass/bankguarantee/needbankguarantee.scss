@@ -1,0 +1,44 @@
+$color_1: rgba(0,0,0,.87);
+$color_2: rgba(0,0,0,.6);
+
+#needbankguarante {
+	margin-top: 64px;
+	margin-bottom: 0;
+}
+.whybankguarantee {
+	margin-bottom: 96px;
+}
+.guarantees__features__title {
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+	color: $color_1;
+}
+.grayparagrafbankguarantee {
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: .15px;
+	font-weight: 500;
+	color: $color_2;
+	margin-top: 16px;
+}
+.needbankguaranteperson {
+	margin-bottom: 48px;
+}
+.filtrebankguarantee {
+	p {
+		font-weight: 500;
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: .25px;
+		text-align: center;
+		color: $color_2;
+		cursor: pointer;
+		border: 1px solid #e5e5e5;
+		padding: 10px 16px;
+		border-radius: 22px;
+		display: inline-block;
+		margin-bottom: 16px;
+		margin-right: 8px;
+	}
+}

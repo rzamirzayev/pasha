@@ -1,0 +1,49 @@
+#joinservice {
+  margin-top: 96px;
+  margin-bottom: 64px;
+}
+
+.joinservicehead p {
+  margin-bottom: 32px;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+}
+
+.grayparagrafsrvc {
+  font-style: normal;
+  letter-spacing: 0.15px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  color: rgba(0, 0, 0, 0.6);
+  margin-bottom: 40px;
+}
+
+.imageservice {
+  width: 100%;
+  text-align: center;
+}
+.imageservice img {
+  width: 128px;
+}
+
+.textservice {
+  font-size: 15px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15px;
+}
+
+.serviceitemhead {
+  font-family: Gothic A1;
+  margin-top: 14px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+}

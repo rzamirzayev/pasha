@@ -1,0 +1,126 @@
+#productdevelopment {
+  margin-top: 96px;
+}
+
+.productdevelophead {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 24px;
+}
+
+.body-1 {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 56px;
+  padding-right: 280px;
+}
+
+.body-2paragrafh {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  margin-bottom: 56px;
+  padding-right: 150px;
+}
+
+.linkproduct1 {
+  color: inherit;
+  text-decoration: inherit;
+}
+.linkproduct1:hover {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.productdevelopmentheader {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+}
+
+.product1 {
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/pos-terminal.png);
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background-color: #e7f4f9;
+  padding: 24px 24px 16px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.product2 {
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/business-cards.png);
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background-color: #ffebf0;
+  padding: 24px 24px 16px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+}
+
+.product3 {
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/factoring.png);
+  padding: 24px 24px 16px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-color: #fdf6e7;
+  margin-bottom: 24px;
+}
+
+.product4 {
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/e-commerce.png);
+  padding: 24px 24px 16px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-color: #e0f3ed;
+  margin-bottom: 24px;
+}
+
+.product5 {
+  background-image: url(https://sme.pashabank.az/themes/sme/assets/images/main-page/bank-guarantee.png);
+  padding: 24px 24px 16px;
+  border-radius: 8px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-color: #f4f5f4;
+  margin-bottom: 24px;
+}
+
+.innovativesolution {
+  background-image: url("https://sme.pashabank.az/themes/sme/assets/images/main-page/online-bank.png");
+  background-size: 739px;
+  background-repeat: no-repeat;
+  background-position: 100%;
+  margin-top: 96px;
+  min-height: 653px;
+}
+
+.headerinnovative {
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  font-weight: 400;
+}
+
+h5 {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.body-product {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+}

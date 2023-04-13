@@ -1,0 +1,64 @@
+#advantages {
+  margin-top: 96px;
+}
+
+.deliverycard {
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.07);
+  padding: 24px;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  margin-right: 16px;
+  flex: 0 0 auto;
+  width: 35vw;
+  transition: all 0.3s cubic-bezier(0.23, 1, 0.32, 1);
+  background-color: #fff;
+  height: 156px;
+  overflow: hidden;
+  border-radius: 8px;
+  width: calc((100% - 48px) / 3);
+}
+
+.headparagrafcards {
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-size: 20px;
+  margin-bottom: 8px;
+  font-weight: 400px !important;
+}
+
+.paragrafcard {
+  line-height: 24px;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.headsectionadvantages {
+  margin-bottom: 32px;
+}
+
+.advantageslinks {
+  margin-right: 32px;
+  font-size: 15px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  font-weight: 500;
+  padding: 0 8px 12px;
+  color: rgba(0, 0, 0, 0.38);
+}
+.advantageslinks:hover {
+  color: rgba(0, 0, 0, 0.38);
+  text-decoration: inherit;
+}
+
+.advantageslinks.active {
+  position: relative;
+  color: #343836;
+}
+
+.advantageslinksdiv {
+  display: flex;
+  border-bottom: 1px solid #e2e3e2;
+}
+
+.advantagescardtwo {
+  display: none !important;
+}

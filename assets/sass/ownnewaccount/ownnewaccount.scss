@@ -1,0 +1,339 @@
+$color_1: rgba(0,0,0,.87);
+$color_2: #fff;
+$color_3: rgba(0,0,0,.6);
+$color_4: rgba(0,0,0,.38);
+$color_5: #099a71;
+@import "../header.scss";
+$color_6: inherit;
+$font-family_1: Gothic A1;
+$background-color_1: #fafafa;
+$background-color_2: #ffebf0;
+$background-color_3: #fff;
+$background-color_4: #4e5251;
+
+/* section adding */
+/* dvsv */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	font-family: $font-family_1;
+	font-weight: 400;
+	color: $color_1;
+	background-color: $background-color_1;
+	line-height: 1;
+}
+.accountslide {
+	background-color: $background-color_2;
+	padding-top: 104px;
+	padding-bottom: 52px;
+}
+.accountslidelist {
+	background-image: url(https://sme.pashabank.az/themes/sme/assets/images/slider/accounts.jpg);
+	background-position: 100% 0;
+	background-repeat: no-repeat;
+	background-size: contain;
+	padding-top: 104px;
+	padding-bottom: 52px;
+	h1 {
+		margin-bottom: 24px;
+		font-size: 48px;
+		line-height: 56px;
+		letter-spacing: unset !important;
+		font-weight: 400 !important;
+	}
+}
+.accounrslidebtn {
+	background: #058d66 !important;
+	color: $color_2 !important;
+	background-position: 50%;
+	min-width: 128px;
+	height: 48px;
+	padding: 12px 16px;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .1px;
+	font-weight: 600;
+	border-radius: 6px;
+}
+.container {
+	padding-left: 24px;
+	padding-right: 24px;
+	padding-left: 24px;
+	padding-right: 24px;
+}
+#addinginformation {
+	margin-top: 56px;
+}
+.tittle {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: .5px;
+	margin-bottom: 40px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: .5px;
+	margin-bottom: 40px;
+	max-width: 858px;
+	color: $color_3;
+}
+.accordion {
+	border-radius: 6px;
+	border: 1px solid #d6d7d6;
+	padding: 16px 20px 16px 16px;
+	background-color: $background-color_3;
+	margin-bottom: 16px;
+	width: 100%;
+}
+.panel {
+	display: none;
+	overflow: hidden;
+}
+.footer-services {
+	li {
+		list-style: none;
+		padding: 10px 16px;
+		a {
+			font-weight: 500;
+			font-size: 14px;
+			line-height: 20px;
+			letter-spacing: .25px;
+			color: $color_3;
+			text-decoration: inherit;
+			&:hover {
+				color: $color_1;
+			}
+		}
+	}
+}
+.footer-p {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .1px;
+	font-weight: 600;
+}
+.copyright-p {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .4px;
+	color: $color_4;
+}
+.contact-number {
+	padding: 16px;
+}
+.contact-boss {
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 16px;
+	letter-spacing: .4px;
+	color: $color_3;
+}
+.contact-p {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 20px;
+	letter-spacing: .25px;
+}
+.footer-logo {
+	height: 56px;
+}
+#footerarea {
+	padding-top: 36px;
+	padding-bottom: 40px;
+}
+.footer {
+	background-color: $background-color_3;
+	padding-top: 48px;
+	margin-top: 96px;
+}
+#advantagesection {
+	margin-top: 56px;
+}
+.advantagelisting {
+	img {
+		margin-right: 15px;
+	}
+	margin-bottom: 40px;
+}
+.addingonformationheader {
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+	margin-bottom: 16px;
+}
+.addinginformationpadding {
+	background-color: $background-color_3;
+	border-radius: 8px;
+	width: 368px;
+	height: 176px;
+	padding: 24px;
+	box-shadow: 0 2px 7px rgba(0,0,0,.07);
+	transition: all .3s cubic-bezier(.23,1,.32,1);
+	h4 {
+		width: 240px;
+		margin-bottom: 16px;
+		line-height: 24px;
+		letter-spacing: .15px;
+		font-size: 20px;
+		font-weight: 600;
+		color: $color_1;
+	}
+	p {
+		color: $color_5;
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: .1px;
+		font-weight: 600;
+		padding: 8px 0;
+	}
+}
+a {
+	color: $color_6;
+	text-decoration: inherit;
+	&:hover {
+		color: $color_6;
+		text-decoration: inherit;
+	}
+}
+.listsinformation {
+	display: block;
+	padding-bottom: 24px;
+	padding-left: 12px;
+}
+.listaddinginformation {
+	margin-right: 24px;
+}
+.row {
+	margin-right: -12px;
+	margin-left: -12px;
+}
+.svg {
+	width: 64px;
+	height: 64px;
+	fill: rgb(9, 154, 113);
+}
+.advantagehead {
+	margin-bottom: 40px;
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+}
+.listparagrafadvantage {
+	h5 {
+		font-size: 20px;
+		font-weight: 600;
+		line-height: 24px;
+		letter-spacing: .15px;
+		margin-bottom: 8px;
+	}
+	p {
+		letter-spacing: .5px;
+		line-height: 24px;
+		font-weight: 500;
+		font-size: 15px;
+		color: $color_3;
+	}
+}
+#startnewbusiness {
+	background-image: url(https://sme.pashabank.az/themes/sme/assets/images/accounts/kob-bg.jpg);
+	justify-content: center;
+	background-color: $background-color_4;
+	color: $color_2;
+	background-position: top;
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 456px;
+	margin-top: 96px;
+	display: flex;
+	flex-direction: column;
+	h4 {
+		margin-bottom: 24px;
+		font-size: 48px;
+		line-height: 56px;
+	}
+	a {
+		background: #058d66 !important;
+		color: $color_2 !important;
+		background-position: 50%;
+		min-width: 144px;
+		height: 56px;
+		padding: 16px;
+		font-size: 14px;
+		line-height: 24px;
+		letter-spacing: .1px;
+		font-weight: 600;
+		border-radius: 6px;
+		margin-top: 30px !important;
+	}
+}
+.linknewaccount {
+	margin-top: 30px;
+}
+.newbusinesstexs {
+	margin-top: 48px;
+	margin-bottom: 48px;
+}
+#tariffpackage {
+	margin-top: 96px;
+	border-bottom: 1px solid green;
+}
+.support {
+	margin-right: 24px;
+	padding: 24px;
+	width: 368px;
+	border-radius: 8px;
+	background-color: $background-color_3;
+	h2 {
+		font-size: 60px;
+		font-weight: 300;
+		line-height: 72px;
+		letter-spacing: -.5px;
+	}
+}
+.helpmeimg {
+	margin-bottom: 16px;
+}
+.span-color-green {
+	color: $color_5;
+}
+.support-img-p {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: .5px;
+	color: $color_4;
+}
+.subtitle {
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .1px;
+	font-weight: 600;
+	margin-bottom: 16px;
+}
+.moreinformationbutton {
+	background-color: $background-color_3;
+	color: $color_5;
+	background-position: 50%;
+}
+.newaccount {
+	background: #058d66;
+	color: $color_2;
+	background-position: 50%;
+}
+.supportpopup1 {
+	display: none;
+}
+.supportpopup2 {
+	display: none;
+}
+.supportpopup3 {
+	display: none;
+}
+#questionasked {
+	margin-top: 96px;
+}

@@ -1,0 +1,42 @@
+$color_1: #007d57;
+$color_2: rgba(0,0,0,.87);
+$background-color_1: #f1f9f7;
+
+#comfortablecredit {
+	padding-top: 56px;
+	padding-bottom: 56px;
+}
+.comfortableheader {
+	font-size: 32px;
+	line-height: 48px;
+	letter-spacing: .25px;
+	font-weight: 400 !important;
+}
+.listcredit {
+	padding-top: 40px;
+}
+.listcardcredit {
+	align-items: center;
+}
+.numbercredittext {
+	background-color: $background-color_1;
+	color: $color_1;
+	width: 64px;
+	height: 64px;
+	border-radius: 50%;
+	align-items: center;
+	justify-content: center;
+	margin-right: 16px;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 32px;
+	display: flex;
+}
+.subtitletext {
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 24px;
+	letter-spacing: .15px;
+	color: $color_2;
+	width: calc(100% - 80px);
+}

@@ -1,0 +1,63 @@
+$color_1: rgba(0,0,0,.6);
+$color_2: #fff;
+$background-color_1: #f1f9f7;
+
+#slidecredit {
+	background-color: $background-color_1;
+}
+.slider {
+	.container {
+		padding-top: 104px;
+		padding-bottom: 52px;
+		background-position: right -40px bottom;
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-image: url(https://sme.pashabank.az/themes/sme/assets/images/online-business-credit/flexible_credit_cover.png);
+		max-width: 1200px;
+	}
+}
+.slidehead {
+	margin-bottom: 24px;
+	font-size: 48px;
+	line-height: 56px;
+	letter-spacing: unset !important;
+	font-weight: 400 !important;
+}
+.slidegrayparagraf {
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 24px;
+	letter-spacing: .5px;
+	color: $color_1;
+	margin-bottom: 40px;
+}
+.slidetext {
+	margin-bottom: 24px;
+	h6 {
+		line-height: 24px;
+		letter-spacing: .15px;
+		font-size: 20px;
+		font-weight: 600;
+	}
+}
+.slideicon {
+	margin-right: 16px;
+}
+.slidelink {
+	background: #058d66 !important;
+	color: $color_2 !important;
+	background-position: 50%;
+	min-width: 144px;
+	height: 56px;
+	padding: 16px;
+	font-size: 14px;
+	line-height: 24px;
+	letter-spacing: .1px;
+	font-weight: 600;
+	border-radius: 6px;
+	cursor: pointer;
+	outline: none;
+	border: none;
+	margin-top: 48px;
+	text-align: center !important;
+}

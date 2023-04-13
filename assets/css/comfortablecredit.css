@@ -1,0 +1,43 @@
+#comfortablecredit {
+  padding-top: 56px;
+  padding-bottom: 56px;
+}
+
+.comfortableheader {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  font-weight: 400 !important;
+}
+
+.listcredit {
+  padding-top: 40px;
+}
+
+.listcardcredit {
+  align-items: center;
+}
+
+.numbercredittext {
+  background-color: #f1f9f7;
+  color: #007d57;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-right: 16px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  display: flex;
+}
+
+.subtitletext {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: rgba(0, 0, 0, 0.87);
+  width: calc(100% - 80px);
+}

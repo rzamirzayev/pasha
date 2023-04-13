@@ -1,0 +1,38 @@
+#news {
+  margin-top: 96px;
+}
+
+.newstittle {
+  font-size: 32px;
+  line-height: 48px;
+  letter-spacing: 0.25px;
+  margin-bottom: 40px;
+}
+
+.newslink {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: inherit;
+  text-decoration: inherit;
+}
+
+.moreinformationnews {
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.1px;
+  font-weight: 600;
+  padding: 8px 0;
+  color: #099a71;
+  margin-top: 40px;
+}
+
+.newslinks {
+  padding-bottom: 24px;
+}
+
+a.newslink:hover {
+  color: #099a71;
+  text-decoration: underline;
+}
